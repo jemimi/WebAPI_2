@@ -10,12 +10,10 @@ namespace WebAPI_2.Controllers
     public class GreetingController : ApiController
     {
         //GET api/Greeting/{id}
-        public string Get(int id)
-         {
+        public string Get(int id){
             string a = "Greetings to " + id + " people!";
-            
-           return a;
 
+            return a;
 
         }
     }
